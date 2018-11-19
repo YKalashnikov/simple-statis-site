@@ -1,0 +1,129 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7,
+.pimg8,
+.pimg9,
+.pimg10,
+.pimg11
+#myVideo {
+  background-position: center;
+  position: relative;
+  opacity: 0.7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top:-9px;
+}
+.pimg1 {
+  background-image: url("../img/img1.jpeg");
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url("../img/img2.jpeg");
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url("../img/img3.jpeg");
+  min-height: 400px;
+}
+.pimg4 {
+  background-image: url("../img/img4.jpeg");
+  min-height: 400px;
+}
+.pimg5 {
+  background-image: url("../img/img5.jpeg");
+  min-height: 400px;
+}
+.pimg5 {
+  background-image: url("../img/img5.jpeg");
+  min-height: 400px;
+}
+.pimg6 {
+  background-image: url("../img/img6.jpeg");
+  min-height: 400px;
+}
+.pimg7 {
+  background-image: url("../img/img7.jpeg");
+  min-height: 600px;
+}
+.pimg8 {
+  background-image: url("../img/img8.jpeg");
+  min-height: 700px;
+}
+.pimg9 {
+  background-image: url("../img/img9.jpeg");
+  min-height: 500px;
+}
+.pimg10 {
+  background-image: url("../img/img10.jpeg");
+  min-height: 500px;
+}
+.pimg11 {
+    background-image: url("../img/img11.jpeg");
+    min-height: 100%;
+   
+   
+  }
+.myVideo {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #000;
+  font-size: 27px;
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  color: #fff;
+  background-color: #111;
+  padding: 20px;
+}
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media (max-width: 558px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4,
+  .pimg5,
+  .pimg6,
+  .pimg7,
+  .pimg8,
+  .pimg9,
+  .pimg10,
+  .pimg11,
+  .pimg12,
+  .myVideo {
+    background-attachment: scroll;
+  }
+}
