@@ -18,7 +18,7 @@ html {
 .pimg8,
 .pimg9,
 .pimg10,
-.pimg11
+.pimg11,
 #myVideo {
   background-position: center;
   position: relative;
@@ -75,12 +75,8 @@ html {
 .pimg11 {
     background-image: url("../img/img11.jpeg");
     min-height: 100%;
-   
-   
   }
 .myVideo {
-  min-width: 100%;
-  min-height: 100%;
   width: 100%;
 }
 .section {
